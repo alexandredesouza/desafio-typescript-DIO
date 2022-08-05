@@ -1,27 +1,27 @@
 "use strict";
 
-var Profissao;
-(function (Profissao) {
-    Profissao[Profissao["atriz"] = 0] = "atriz";
-    Profissao[Profissao["padeiro"] = 1] = "padeiro";
-})(Profissao || (Profissao = {}));
+var profissao;
+(function (profissao) {
+    profissao[profissao["atriz"] = 0] = "atriz";
+    profissao[profissao["padeiro"] = 1] = "padeiro";
+})(profissao || (profissao = {}));
 let pessoa1 = {
     nome: "Maria",
     idade: 29,
-    profissao: Profissao.atriz
+    profissao: profissao.atriz
 };
 let pessoa2 = {
     nome: "Roberto",
     idade: 19,
-    profissao: Profissao.padeiro
+    profissao: profissao.padeiro
 };
 let pessoa3 = {
     nome: "Laura",
     idade: 32,
-    profissao: Profissao.atriz
+    profissao: profissao.atriz
 };
 let pessoa4 = {
     nome: "Carlos",
     idade: 19,
-    profissao: Profissao.padeiro
+    profissao: profissao.padeiro
 };

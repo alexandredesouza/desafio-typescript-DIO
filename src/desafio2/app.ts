@@ -18,38 +18,38 @@ let pessoa4 = {
     profissao = "padeiro"
 }*/
 
-
-enum Profissao { // Enum para declarar as profissões.
-    atriz,
-    padeiro
+interface Pessoa{ // Interface que conseguimos atribuir todas propriedades de Pessoa.
+    nome: string,
+    idade: number,
+    profissao: profissao
 }
 
-type Pessoa = { // Type para declarar as caracteristicas das pessoas.
-    nome: string,
-    idade: number
+enum profissao { // Enum para declarar as profissões.
+    atriz,
+    padeiro
 }
 
 let pessoa1 = {
     nome: "Maria",
     idade: 29,
-    profissao: Profissao.atriz
+    profissao: profissao.atriz
 }
 
 let pessoa2 = {
     nome: "Roberto",
     idade: 19,
-    profissao: Profissao.padeiro
+    profissao: profissao.padeiro
 }
     
 
 let pessoa3 = {
     nome: "Laura",
     idade: 32,
-    profissao: Profissao.atriz
+    profissao: profissao.atriz
 };
 
 let pessoa4 = {
     nome:"Carlos",
     idade: 19,
-    profissao: Profissao.padeiro
+    profissao: profissao.padeiro
 }
